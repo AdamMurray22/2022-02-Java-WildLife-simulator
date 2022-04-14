@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=PlantWeatherModifiers
+comment0.text=\r\n\ Class\ that\ holds\ and\ sets\ plant's\ modifiers\ and\ \r\n\ whether\ if\ it\ has\ been\ killed\ under\ the\ weather\ condition\ or\ not\r\n\r\n\ @author\ Adam\ Murray\ &\ Ryan\ Yan\r\n\ @version\ 2022.02.28\r\n
+comment1.params=
+comment1.target=PlantWeatherModifiers()
+comment1.text=\r\n\ Constructing\ the\ class,\ setting\ the\ modifier\ to\ 0\ and\ stating\ the\ plant\ is\ alive.\r\n
+comment2.params=
+comment2.target=int\ getGrowthRateModifier()
+comment2.text=\r\n\ Returns\ the\ current\ growth\ rate\ modifier.\r\n\ @return\ The\ current\ growth\ rate\ modifier\r\n
+comment3.params=
+comment3.target=boolean\ isDead()
+comment3.text=\r\n\ Returns\ if\ the\ plant\ is\ killed\ under\ the\ weather\ condition\ or\ not.\r\n\ @return\ Whether\ if\ the\ plant\ is\ killed\ under\ the\ weather\ condition\ or\ not.\r\n
+comment4.params=modifier
+comment4.target=void\ setGrowthRateModifier(int)
+comment4.text=\r\n\ Increases\ the\ growth\ rate\ modifier\ by\ a\ given\ value.\r\n\ @param\ modifier\ The\ value\ to\ increase\ the\ modifier\ by\r\n
+comment5.params=dead
+comment5.target=void\ setDead(boolean)
+comment5.text=\r\n\ Sets\ the\ plant\ to\ be\ dead\ or\ alive,\ depending\ on\ the\ given\ boolean\ value.\r\n\ @param\ dead\ A\ boolean\ value\ indicating\ whether\ the\ plant\ has\ been\ killed\ under\ the\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ weather\ condition\ or\ not.\r\n
+numComments=6

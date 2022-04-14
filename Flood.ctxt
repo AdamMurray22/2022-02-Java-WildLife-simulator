@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Flood
+comment0.text=\r\n\ This\ simulates\ a\ flood\ killing\ lots\ of\ animals\ and\ stopping\ new\ animals\ spawning\ in\ the\ flood\r\n\r\n\ @author\ Adam\ Murray\ and\ Ryan\ Yan\r\n\ @version\ 2022.02.28\r\n
+comment1.params=field\ location
+comment1.target=Flood(Field,\ Location)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Flood\r\n\ Starts\ the\ flood\r\n\ @param\ field\ The\ Field\ the\ simulator\ is\ using.\r\n\ @param\ location\ The\ centre\ of\ the\ flood.\r\n
+comment2.params=
+comment2.target=void\ progress()
+comment2.text=\r\n\ This\ is\ called\ each\ step,\ it\ continues\ the\ flood\r\n
+comment3.params=
+comment3.target=void\ flood()
+comment3.text=\r\n\ Finds\ all\ the\ animals\ in\ range\ and\ has\ a\ chance\ of\ killing\ them.\r\n
+comment4.params=targetClass
+comment4.target=java.util.List\ getUnspawnableLocations(java.lang.Class)
+comment4.text=\r\n\ Returns\ all\ the\ nearby\ locations\ that\ an\ animal\ cant\ spawn,\ if\ a\ plant\ is\ passed\ in\ it\ returns\ null\r\n\ @param\ The\ superClass\ of\ the\ object\ being\ tested,\ Animal\ or\ Plant.\r\n\ @return\ List\ of\ locations\ that\ the\ targetClass\ cannot\ spawn,\ can\ be\ null.\r\n
+comment5.params=
+comment5.target=double\ getRandomSpawnProbability()
+comment5.text=\r\n\ Returns\ the\ random\ spawn\ probability\ of\ a\ flood.\r\n\ @return\ The\ random\ spawn\ probability\ of\ a\ flood.\r\n
+comment6.params=
+comment6.target=int\ getAftermathTime()
+comment6.text=\r\n\ Returns\ the\ aftermath\ time.\r\n\ @return\ The\ aftermath\ time.\r\n
+numComments=7

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Weather
+comment0.text=\r\n\ Class\ initialising\ all\ modifiers\ related\ to\ a\ variety\ of\ weather\ environments.\r\n\r\n\ @author\ Adam\ Murray\ and\ Ryan\ Yan\r\n\ @version\ 2022.02.28\r\n
+comment1.params=weatherType
+comment1.target=Weather(WeatherEnum)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Weather\r\n
+comment2.params=animal
+comment2.target=AnimalWeatherModifiers\ animalWeatherAction(AnimalEnum)
+comment2.text=\r\n\ Sets\ the\ animal's\ modifiers\ depending\ on\ the\ current\ weather.\r\n\ @param\ animal\ The\ class\ object\ of\ the\ animal\ whose\ modifiers\ are\ going\ to\ be\ set.\r\n\ @return\ An\ AnimalWeatherModifier\ object\ with\ set\ modifiers\ to\ be\ attached\ to\ the\ animal's\ \r\n\ \ \ \ \ \ \ \ \ default\ ranges.\r\n
+comment3.params=plant
+comment3.target=PlantWeatherModifiers\ plantWeatherAction(PlantEnum)
+comment3.text=\r\n\ Sets\ the\ modifiers\ for\ grass\ and\ corn.\r\n\ @param\ plant\ The\ class\ object\ of\ plant\ (corn\ /\ grass)\r\n\ @return\ A\ PlantWeatherModifiers\ object\ with\ set\ modifiers\ to\ be\ attached\r\n\ \ \ \ \ \ \ \ \ to\ the\ plant's\ default\ growth\ rate.\r\n
+numComments=4
