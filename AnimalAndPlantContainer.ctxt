@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=AnimalAndPlantContainer
+comment0.text=\r\n\ A\ container\ class\ that\ holds\ an\ Animal\ object\ and\ a\ Plant\ object.\r\n\ \r\n\r\n\ @author\ Adam\ Murray\ and\ Ryan\ Yan\r\n\ @version\ 2022.02.28\r\n
+comment1.params=
+comment1.target=AnimalAndPlantContainer()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ AnimalAndPlantContainer\r\n
+comment2.params=
+comment2.target=Animal\ getAnimal()
+comment2.text=\r\n\ Returns\ the\ animal\ in\ the\ container.\r\n\ @return\ The\ animal\ in\ the\ container.\r\n
+comment3.params=
+comment3.target=Plant\ getPlant()
+comment3.text=\r\n\ Returns\ the\ plant\ in\ the\ container.\r\n\ @return\ The\ plant\ in\ the\ container.\r\n
+comment4.params=animal
+comment4.target=void\ setAnimal(Animal)
+comment4.text=\r\n\ Binds\ the\ animal\ to\ this\ instance.\r\n\ @param\ animal\ Animal\ to\ be\ bound\ to\ this\ instance.\r\n
+comment5.params=plant
+comment5.target=void\ setPlant(Plant)
+comment5.text=\r\n\ Binds\ the\ plant\ to\ this\ instance.\r\n\ @param\ plant\ Plant\ to\ be\ bound\ to\ this\ instance.\r\n
+comment6.params=
+comment6.target=java.util.Set\ getAnimalAndPlantSet()
+comment6.text=\r\n\ Create\ and\ returns\ a\ set\ containing\ both\ the\ animal\ and\ the\ plant\ in\ this\ container.\r\n\ @return\ A\ set\ containing\ both\ the\ animal\ and\ the\ plant\ in\ this\ container.\r\n
+numComments=7

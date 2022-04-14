@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=DiseaseEnum
+comment0.text=\r\n\ Holds\ the\ constants\ used\ for\ the\ disease\ and\ allows\ to\ get\ methods\ to\ access\ them.\r\n\r\n\ @author\ Adam\ Murray\ and\ Ryan\ Yan\r\n\ @version\ 2022.02.28\r\n
+comment1.params=infectRange\ infectionProbability\ killAfter\ killProbability\ randomInfectionProbability
+comment1.target=DiseaseEnum(int,\ double,\ int,\ double,\ double)
+comment2.params=
+comment2.target=int\ getInfectRange()
+comment2.text=\r\n\ Returns\ the\ range\ at\ which\ the\ disease\ can\ infect\ nearby\ animals\ or\ plants.\r\n\ @return\ The\ range\ at\ which\ the\ disease\ can\ infect\ nearby\ animals\ or\ plants.\r\n
+comment3.params=
+comment3.target=double\ getInfectionProbability()
+comment3.text=\r\n\ Returns\ the\ probability\ of\ a\ potential\ victim\ being\ infected.\r\n\ @return\ The\ probability\ of\ a\ potential\ victim\ being\ infected.\r\n
+comment4.params=
+comment4.target=int\ getKillAfter()
+comment4.text=\r\n\ Returns\ the\ number\ of\ steps\ after\ which\ the\ disease\ is\ either\ cured\ or\ kills\ its\ victim.\r\n\ @return\ The\ number\ of\ steps\ after\ which\ the\ disease\ is\ either\ cured\ or\ kills\ its\ victim.\r\n
+comment5.params=
+comment5.target=double\ getKillProbability()
+comment5.text=\r\n\ Returns\ the\ probability\ of\ the\ disease\ killing\ its\ victim.\r\n\ @return\ The\ probability\ of\ the\ disease\ killing\ its\ victim.\r\n
+comment6.params=
+comment6.target=double\ getRandomInfectionProbability()
+comment6.text=\r\n\ Returns\ the\ random\ infection\ probability.\r\n\ @return\ The\ random\ infection\ probability.\r\n
+numComments=7

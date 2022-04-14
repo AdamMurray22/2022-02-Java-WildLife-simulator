@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Disease
+comment0.text=\r\n\ This\ class\ contains\ most\ of\ the\ methods\ of\ a\ disease\ and\ threw\ this\ class\ acts\ out\ what\ a\ disease\ does\r\n\r\n\ @author\ Adam\ Murray\ and\ Ryan\ Yan\r\n\ @version\ 2022.02.28\r\n
+comment1.params=field\ infectionSet\ victim\ diseaseType
+comment1.target=Disease(Field,\ java.util.Set,\ AnimalPlant,\ DiseaseEnum)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Disease\r\n\ @param\ field\ The\ field\ that\ the\ simulator\ is\ using.\r\n\ @param\ infectionSet\ The\ set\ of\ Classes\ that\ can\ be\ infected\ by\ this\ disease.\r\n\ @param\ victim\ The\ AnimalPlant\ that\ has\ been\ infected.\r\n
+comment2.params=newDisease\ environmentConditions
+comment2.target=void\ act(java.util.List,\ EnvironmentConditions)
+comment2.text=\r\n\ This\ method\ acts\ out\ what\ the\ disease\ does\ every\ step.\r\n\ It\ reproduces,\ gets\ older\ and\ when\ it\ reaches\ its\ time,\ trys\ to\ kill\ its\ host.\r\n\ @param\ newDisease\ The\ list\ of\ new\ diseases\ that\ are\ created\ are\ added\ to\ this\ list.\r\n\ @param\ environmentConditions\ An\ instance\ of\ EnvironmentConditions\ that\ tells\ the\ disease\ what\ the\ time\ and\ weather\ currently\ is.\ \r\n
+comment3.params=newDiseases
+comment3.target=void\ infect(java.util.List)
+comment3.text=\r\n\ This\ method\ attemps\ to\ infect\ the\ surrounding\ Animals\ and\ Plants.\r\n\ @param\ newDisease\ The\ list\ of\ new\ diseases\ that\ are\ created\ are\ added\ to\ this\ list.\r\n
+comment4.params=
+comment4.target=void\ attemptKill()
+comment4.text=\r\n\ Attemps\ to\ kill\ the\ victim.\r\n\ The\ disease\ either\ successfully\ kills\ the\ victim\ causing\ it\ to\ have\ no\ host\ and\ so\ dying\ its\ self\ or\ the\ victim\ is\ cured\ of\ the\ Disease\ causing\ the\ Disese\ to\ die,\r\n\ either\ way\ the\ Disease\ will\ die.\r\n
+comment5.params=
+comment5.target=void\ kill()
+comment5.text=\r\n\ Kills\ the\ victim\r\n
+comment6.params=potentialVictim
+comment6.target=boolean\ attemptInfection(AnimalPlant)
+comment6.text=\r\n\ Returns\ whether\ the\ disease\ succesfully\ infects\ a\ chosen\ victim.\r\n\ @param\ potentialVictim\ The\ AnimalPlant\ that\ the\ disease\ is\ trying\ to\ infect.\r\n\ @return\ true\ if\ the\ infection\ is\ succesfull,\ false\ if\ it\ fails.\r\n
+comment7.params=potentialVictim
+comment7.target=boolean\ infectable(AnimalPlant)
+comment7.text=\r\n\ Tests\ if\ the\ given\ AnimalPlant\ is\ of\ a\ Class\ that\ can\ be\ infected\ by\ this\ Disease.\r\n\ @return\ true\ if\ the\ AnimalPlant\ is\ of\ a\ Class\ that\ can\ be\ infected,\ false\ if\ its\ not.\r\n
+comment8.params=
+comment8.target=LifeEnumInterface\ getType()
+numComments=9

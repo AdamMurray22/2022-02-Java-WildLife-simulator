@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=AnimalWeatherModifiers
+comment0.text=\r\n\ Class\ that\ holds\ and\ sets\ animal's\ modifiers\r\n\r\n\ @author\ Adam\ Murray\ &\ Ryan\ Yan\r\n\ @version\ 2022.02.28\r\n
+comment1.params=
+comment1.target=AnimalWeatherModifiers()
+comment1.text=\r\n\ Constructing\ the\ class,\ setting\ all\ modifiers\ to\ 0.\r\n
+comment2.params=
+comment2.target=int\ getMovementModifier()
+comment2.text=\r\n\ Returns\ the\ current\ movement\ modifier.\r\n\ @return\ The\ current\ movement\ modifier\r\n
+comment3.params=
+comment3.target=int\ getHuntingModifier()
+comment3.text=\r\n\ Returns\ the\ current\ hunting\ modifier.\r\n\ @return\ The\ current\ hunting\ modifier\r\n
+comment4.params=
+comment4.target=int\ getBreedingModifier()
+comment4.text=\r\n\ Returns\ the\ current\ breeding\ modifier.\r\n\ @return\ The\ current\ breeding\ modifier\r\n
+comment5.params=modifier
+comment5.target=void\ setMovementModifier(int)
+comment5.text=\r\n\ Increments\ the\ current\ movement\ modifier\ by\ a\ given\ value.\r\n\ @param\ modifier\ The\ value\ to\ increase\ the\ modifier\ by.\r\n
+comment6.params=modifier
+comment6.target=void\ setHuntingModifier(int)
+comment6.text=\r\n\ Increments\ the\ current\ hunting\ modifier\ by\ a\ given\ value.\r\n\ @param\ modifier\ The\ value\ to\ increase\ the\ modifier\ by.\r\n
+comment7.params=modifier
+comment7.target=void\ setBreedingModifier(int)
+comment7.text=\r\n\ Increments\ the\ current\ breeding\ modifier\ by\ a\ given\ value.\r\n\ @param\ modifier\ The\ value\ to\ increase\ the\ modifier\ by.\r\n
+numComments=8

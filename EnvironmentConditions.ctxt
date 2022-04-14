@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=EnvironmentConditions
+comment0.text=\r\n\ Holds\ and\ increments\ the\ current\ environment\ conditions\ such\ as\ weather\ and\ time.\r\n\r\n\ @author\ Adam\ Murray\ and\ Ryan\ Yan\r\n\ @version\ 2022.02.28\r\n
+comment1.params=
+comment1.target=EnvironmentConditions()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ EnviromentConditions\r\n
+comment2.params=
+comment2.target=void\ incrementConditions()
+comment2.text=\r\n\ Increment\ /\ update\ the\ weather,\ time\ and\ day/night\ cycle.\r\n
+comment3.params=
+comment3.target=boolean\ isDay()
+comment3.text=\r\n\ Returns\ if\ it's\ currently\ day\ or\ night.\r\n\ @return\ Whether\ if\ it's\ day\ or\ not\r\n
+comment4.params=
+comment4.target=Weather\ getWeather()
+comment4.text=\r\n\ Returns\ the\ current\ weather.\r\n\ @return\ The\ current\ weather\r\n
+numComments=5
