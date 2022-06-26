@@ -59,18 +59,24 @@ public class SimulatorView extends JFrame
         Container contents = getContentPane();
         
         Box buttonsVbox = Box.createVerticalBox();
+        JButton reset = new JButton("Reset simulation");
+        reset.addActionListener(e -> {
+            if (!simulationRunning)
+            {
+                simulator.reset();
+            }});
         JButton oneStep = new JButton("Simulate 1 step");
         oneStep.addActionListener(e -> {
             if (!simulationRunning)
             {
                 simulator.simulateOneStep();
             }});
-        JButton longSim = new JButton("Simulate long (4000 steps)");
+        JButton longSim = new JButton("Simulate long (150 steps)");
         longSim.addActionListener(e -> 
             {   Thread thread = new Thread() {
                     public void run()
                     {
-                        simulator.simulate(4000);
+                        simulator.simulate(150);
                         simulationRunning = false;
                     }   
                 };
@@ -96,6 +102,7 @@ public class SimulatorView extends JFrame
                     thread.start();
                 }
         });
+        buttonsVbox.add(reset);
         buttonsVbox.add(oneStep);
         buttonsVbox.add(longSim);
         buttonsVbox.add(anySim);

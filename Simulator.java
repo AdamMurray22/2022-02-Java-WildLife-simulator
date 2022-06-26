@@ -55,6 +55,11 @@ public class Simulator
         getBuiltSim();
     }
     
+    public static void main(String[] args)
+    {
+        new Simulator();
+    }
+    
     /**
      * Obtains the data and values needed to construct the simulator from the SimulatorBuilder class.
      * e.g. lifeList - contains all lives on the field.
